@@ -1,6 +1,7 @@
-import React, { Fragment } from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
+// eslint-disable-next-line
+import React, { Fragment } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
 
-ReactDOM.render(<App/>, document.querySelector('#root'));
+ReactDOM.render(<App />, document.querySelector("#root"));
