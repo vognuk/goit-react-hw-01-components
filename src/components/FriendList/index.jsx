@@ -23,7 +23,8 @@ FriendList.propTypes = {
   name: PropTypes.string,
   isOnline: PropTypes.bool.isRequired,
   id: PropTypes.number.isRequired,
-  isOnline: PropTypes.bool.isRequired,
+  // eslint-disable-next-line no-dupe-keys
+  isOnline: PropTypes.bool,
 };
 
 export default FriendList;
